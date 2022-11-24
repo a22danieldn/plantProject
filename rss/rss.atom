@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Plants and Trees Project</title>
+    <subtitle>Another task for Markup Language and Information Management Systems</subtitle>
+    <link href="https://a22danieldn.github.io/plantProject/index.html" />
+    <updated>Thu, 22 Nov 2022 20:00:00 GMT+1</updated>
+
+    <entry>
+        <author>
+            <name>A22DanieDN</name>
+        </author>
+        <title>Plants and trees gallery</title>
+        <link href="https://a22danieldn.github.io/plantProject/plantstrees.html" />
+        <updated>Wed, 21 Nov 2022 22:00:00 GMT+1</updated>
+        <published>21 Nov 2022 23:00:00 GMT+1</published>
+        <category term="Botanic" />
+        <summary>Gallery of some of the botanical species that can be found in the Park of San Domingos de Bonaval. Includes a description of the Hydrangea species.</summary>
+    </entry>
+
+    <entry>
+        <author>
+            <name>A22DanieDN</name>
+        </author>
+        <title>The other side of Bonaval</title>
+        <link href="https://a22danieldn.github.io/plantProject/otherside.html" />
+        <updated>Thu, 22 Nov 2022 20:00:00 GMT+1</updated>
+        <published>22 Nov 2022 20:30:00 GMT+1</published>
+        <category term="Monumental" />
+        <summary>The past of the Park of San Domingos de Bonaval before it became a site of special botanical reference. Municipal Cemetery of the city since 1940, its total abandonment in the 80s and its opening as a park in 1994.</summary>
+    </entry>
+
+</feed>
