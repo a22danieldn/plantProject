@@ -1,0 +1,62 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Relleno */
+
+.container {
+    padding: 10px 5%;
+}
+
+.heading-text {
+    margin-bottom: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.image-gallery > li {
+    flex-basis: auto;
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.image-gallery li img {
+    object-fit: cover;
+    max-width: 250px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.container > p {
+    text-align: justify;
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:hover {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+li:hover a {
+    color: white;
+    background-color: black;
+}

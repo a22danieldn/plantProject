@@ -1,0 +1,106 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+}
+
+h5 {
+    margin: 0;
+    background-color: green;
+    color: white;
+}
+
+ul {
+    margin-top: 60px;
+}
+
+a {
+    color: black;
+}
+
+.menuindex {
+    background-color: green;
+    color: white;
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li:hover a {
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 200px;
+}
+
+p {
+    text-align: justify;
+}
+
+h6 {
+    text-align: right;
+    margin-top: 0;
+}
+
+footer {
+    font-size: 10px;
+}
+
+.img1, .menu {
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.img1 {
+    margin-top: 5px;
+    text-align: right;
+}
+
+div.img1 > img {
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    max-height: 200px; 
+}
+
+.img2 {
+    float: left;
+}
+
+div.img2 > img {
+    object-fit: cover;
+    border-radius: 5px; 
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.rss > p > a > img {
+    display: flex;
+    object-fit: cover;
+    border-radius: 5px;
+
+    float: left;
+    margin-right: 7px;
+    margin-top: 5px;
+    padding: 0;
+}
